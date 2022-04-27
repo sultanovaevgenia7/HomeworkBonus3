@@ -3,7 +3,7 @@ package com.sultanovaevgenia7.bonus3;
 public class AccountCalculations {
     public static final int BONUS_LIMIT = 100;
 
-    private static int addReplenishment(int account, int replenishmentAmount) {
+    private int addReplenishment(int account, int replenishmentAmount) {
         int bonus = 0;
         if (replenishmentAmount > BONUS_LIMIT)
             bonus = replenishmentAmount / BONUS_LIMIT;
